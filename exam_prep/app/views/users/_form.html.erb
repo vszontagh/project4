@@ -1,0 +1,17 @@
+<%= form_for(@user) do |f| %>
+  <%= f.label :username %>
+  <%= f.text_field :username, class: ""%><br>
+  <%= f.label :password %>
+  <%= f.text_field :password, class: ""%><br>
+  <%= f.password_field :password_confirmation, "Confirmation" %>
+  <%= f.password_field :password_confirmation, class:""%>
+
+  <% if @user.errors.any? %>
+    <ul style="color:red">
+      <% @user.errors.full_messages.each do |message|%>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  <%= f.button 'Signup', class: "" %>
+<% end %>
