@@ -1,0 +1,9 @@
+<div>
+  <% @category.each do |c| %>
+      <a href="/categories/<%= c.id %>/lessons"><%= c.category%></a><br>
+  <% end %>
+</div>
+
+<h3>Project Managment Meetups in the City</h3>
+
+<p><%= @group %></p>

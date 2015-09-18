@@ -22,7 +22,16 @@ Rails.application.routes.draw do
   post '/login' => "sessions#create"
   delete '/logout' => "sessions#destroy"
 
+  resources :categories do
+    resources :lessons do
+      resources :questions
+    end
+  end
 
+  # resources :lessons do
+  #   resources :questions
+  # end
+  
   # Example resource route with options:
   #   resources :products do
   #     member do

@@ -1,0 +1,7 @@
+<div>
+    <% @lesson.each do |l| %>
+     <%= l.content%><br>
+     <a href="/categories/<%= l.category_id %>/lessons/<%= l.id %>/questions"><button>Take quiz</button></a>
+    <% end %>
+
+</div>

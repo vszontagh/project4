@@ -1,6 +1,6 @@
 class CreateQuestions < ActiveRecord::Migration
   def change
-    create_table :questions force: :cascade do |t|
+    create_table :questions do |t|
       t.string :question
       t.integer :correct_answer_id
       t.references :category

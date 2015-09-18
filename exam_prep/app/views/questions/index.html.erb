@@ -1,0 +1,12 @@
+<div>
+      <% @question.each do |q| %>
+        <h3><%= q.question %></h3>
+     
+          <% q.answers.each do |a| %>
+          <p class="answers">
+            <%= a.text%>
+          </p>
+          <% end %>
+      
+      <% end %>
+</div>

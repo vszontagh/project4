@@ -1,6 +1,6 @@
 class CreatePlays < ActiveRecord::Migration
   def change
-    create_table :plays force: :cascade do |t|
+    create_table :plays do |t|
       t.references :user
       t.integer :num_questions
       t.integer :correct

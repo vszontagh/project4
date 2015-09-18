@@ -1,6 +1,6 @@
 class CreateLessons < ActiveRecord::Migration
   def change
-    create_table :lessons force: :cascade do |t|
+    create_table :lessons do |t|
       t.string :content
       t.references :category
 
