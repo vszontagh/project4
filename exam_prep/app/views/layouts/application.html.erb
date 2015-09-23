@@ -6,22 +6,39 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 
 </head>
 <body>
   <!-- Header -->
   <div class="header">
-    <%= render "/layouts/header" %>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <%= render "/layouts/header" %>
+      </div>
+    </div>
   </div>
 
   <!-- Content -->
   <div class="content">
-    <%= yield %>
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <%= yield %>
+      </div>
+    </div>
   </div>
+
   <!-- Footer -->
   <div class="footer">
-    <%= render "/layouts/footer" %>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <%= render "/layouts/footer" %>
+      </div>
+    </div>
   </div>
   
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </body>
 </html>

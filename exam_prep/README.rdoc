@@ -1,28 +1,36 @@
-== README
+== PMP Exam Prep
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+This site is designed to help users prepare for their Project Management exam. It contains lessons for each knowledge area and the user should be able to complete mockup tests. Based on the test scores the user should be able to see his/her progress in a barchart diagram.
 
-Things you may want to cover:
+## Planning
+### User Stories
+* The user should be able to login or sign in to the portal
+* The user should be able to see all the project knoledge areas.
+* The user should be able to take a test after each lesson.
+* The user should be able to select one answer from a multiple choice option.
+* The user should be able to see the test result.
+* The user should be able to see his/her own progress.
+* 
 
-* Ruby version
+### Wireframes
+[Login]()
+[Signin]()
+[Lesson]()
+[Test]()
 
-* System dependencies
+### Routes
+[Routes]()
 
-* Configuration
+### ERD Design
+[ERD]()
 
-* Database creation
+### KanBan Board
+[]()
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Resources
+[Free PMP Questions](http://www.oliverlehmann.com/pmp-self-test/75-free-questions.htm)
+[Free Mock exam](http://www.preparepm.com/mock1.html)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+

@@ -10,4 +10,17 @@ class QuestionsController < ApplicationController
       redirect_to users_path
     end
   end
+
+  def show
+    @question = Question.find(params[:id])
+    #@answer = 
+
+  end
+
+
+  # def update
+  #   question = Question.where({id: })
+
+  # end
+
 end

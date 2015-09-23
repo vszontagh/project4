@@ -1,9 +1,14 @@
-<div>
-  <% @category.each do |c| %>
-      <a href="/categories/<%= c.id %>/lessons"><%= c.category%></a><br>
-  <% end %>
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <% @category.each do |c| %>
+    <div class="areas">
+        <a href="/categories/<%= c.id %>/lessons"><%= c.category%></a><br>
+      </div>
+    <% end %>
+  <div>
 </div>
 
 <h3>Project Managment Meetups in the City</h3>
-
-<p><%= @group %></p>
+<div class="meetup">
+  <p><%= @group %></p>
+</div>

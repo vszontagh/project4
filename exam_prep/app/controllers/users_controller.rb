@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       flash[:success] = "welcome to proPrep!"
+      redirect_to categories_path
     else
       render 'new'
     end
@@ -26,7 +27,7 @@ class UsersController < ApplicationController
       @tasks = @user.tasks
       @messages = @user.messages
     else
-      redirect_to users_path
+      redirect_to categories_path
     end
 
   end
