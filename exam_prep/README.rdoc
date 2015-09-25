@@ -14,19 +14,17 @@ This site is designed to help users prepare for their Project Management exam. I
 * 
 
 ### Wireframes
-[Login]()
-[Signin]()
-[Lesson]()
-[Test]()
+[Wireframe](app/assets/images/WF1.png)
+[Wireframe](app/assets/images/WF2.png)
 
 ### Routes
-[Routes]()
+[Routes](app/assets/images/Routes.png)
 
 ### ERD Design
-[ERD]()
+[ERD](app/assets/images/ERD.png)
 
 ### KanBan Board
-[]()
+[KanBan](app/assets/images/KanBan.png)
 
 ### Resources
 [Free PMP Questions](http://www.oliverlehmann.com/pmp-self-test/75-free-questions.htm)

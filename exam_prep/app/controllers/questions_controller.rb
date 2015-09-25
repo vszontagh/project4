@@ -13,11 +13,14 @@ class QuestionsController < ApplicationController
 
   def show
     @question = Question.find(params[:id])
-    #@answer = 
+    @answer = Answer.all
 
   end
 
+  def create
 
+  end
+  
   # def update
   #   question = Question.where({id: })
 

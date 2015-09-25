@@ -15,8 +15,7 @@ class SessionsController < ApplicationController
       else
         flash[:danger] = "Incorrect password or username"
       end
-
-      redirect_to login_path
+        redirect_to login_path
     end
   end
 

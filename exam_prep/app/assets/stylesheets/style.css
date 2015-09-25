@@ -1,3 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Frijole);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+/*h1{
+  font-family: 'Frijole', cursive;
+}*/
+h1, h2,h3{
+  font-family: 'Poiret One', cursive;
+
+}
+
+
+
+.footer-header{
+  vertical-align: center;
+  margin: 40px 45% 0;
+  width: 60px;
+  height: 60px;
+}
+
+.img-meetup{
+  width: 60%;
+  height: 70%;
+  border: solid white 8px groove;
+  border-radius: 5px;
+  margin: 5% 0;
+  vertical-align: center;
+}
+
+.meetup-header{
+  text-align: center;
+}
+
 .content{
   margin: 5% 10%;
+}
+
+.submit-quiz, .take-quiz{
+  margin: 20px;
+  vertical-align: center;
 }

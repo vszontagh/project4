@@ -1,14 +1,25 @@
 <div class="row">
-  <div class="col-xs-6 col-md-4">
+  <div class="col-xs-12 col-md-10 col-md-offset-1">
     <% @category.each do |c| %>
     <div class="areas">
-        <a href="/categories/<%= c.id %>/lessons"><%= c.category%></a><br>
-      </div>
+        <h2><a href="/categories/<%= c.id %>/lessons"><%= c.category%></a></h2><hr><br>
+        <div>
     <% end %>
   <div>
 </div>
 
-<h3>Project Managment Meetups in the City</h3>
+<h2 class="meetup-header">Project Managment Meetups in the City</h2>
 <div class="meetup">
+  <div class="row">
+    <div class="col-xs-12 col-md-10 col-md-offset-2">
+      <div class="col-xs-12 col-md-6">
+        <a href="http://www.meetup.com/Project-Management-Institute-New-York-City/"><img src="http://www.improveyourit.com/wp-content/uploads/2014/05/179026806.jpg" class="img-meetup"></a>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <a href="http://www.meetup.com/Project-Management-Institute-New-York-City/"><img src="http://www.oneneck.com/filesimages/blog/OneNeck-End-to-End-IT-Solutions.jpg" class="img-meetup"></a>
+      </div>
+    </div>
+  </div>
+
   <p><%= @group %></p>
 </div>
